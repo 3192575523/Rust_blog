@@ -5,7 +5,7 @@ A Rust blog backend built with Axum + Sqlite, the frontend is built with Vue, se
 
 ## Backend Operation
 ### env
-后端运行前，首先需要配置env环境，在本地测试时，采用:
+Before the backend runs, you first need to configure the env environment. For local testing, use:
 ```
 BIND=127.0.0.1:8080
 DATABASE_URL=sqlite://blog.db
