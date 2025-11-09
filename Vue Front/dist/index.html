@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>blog-frontend</title>
+
+    <!-- 外链图片若有防盗链，尝试不带 Referer -->
+    <meta name="referrer" content="no-referrer" />
+
+    <!-- MathJax 配置：识别 $...$ / $$...$$；跳过代码块 -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']]
+        },
+        options: {
+          skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+        },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script type="module" crossorigin src="/assets/index-eJ52HC4X.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cr924ZJk.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
