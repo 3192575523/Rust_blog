@@ -79,7 +79,7 @@ http {
         server_name  localhost;
 
         #access_log  logs/host.access.log  main;
-        root   "D:\软件\Rust从0实现静态博客\blog-frontend_Using_test_V1\blog-frontend\dist";
+        root   "D:\XXX\blog-frontend\dist";
         index  index.html;
 
         # SPA：除了实际存在的文件，其余都回退到 index.html
@@ -115,7 +115,7 @@ http {
             proxy_connect_timeout 5s;
             proxy_read_timeout    60s;
 
-            # 上传大小（按需调大）
+            # 上传大小
             client_max_body_size 20m;
         }
 
