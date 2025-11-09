@@ -1,2 +1,2 @@
 # Rust_blog_backend
-用Axum+Sqlite构建的Rust博客后端
+A Rust blog backend built with Axum + Sqlite, the frontend is built with Vue, serving as an example skeleton
